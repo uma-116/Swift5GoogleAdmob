@@ -12,7 +12,8 @@ import GoogleMobileAds
 class TableViewController: UITableViewController,GADBannerViewDelegate,GADInterstitialDelegate {
     
     var profileImageArray = ["0","1","2","3","4"]
-    var textArray = ["顔文字0","顔文字1","顔文字2","顔文字3","顔文字4","インタースティシャル広告"]
+    
+    var textArray = ["顔文字0","顔文字1","顔文字2","顔文字3","インタースティシャル広告"]
     
     var interstitial:GADInterstitial!
     
